@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".InputActivity">
+
+  <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:gravity="center"
+      android:textSize="21dp"
+      android:layout_marginBottom="18dp"
+      android:text="Masukkan Data"
+      android:textStyle="bold"/>
+
+  <EditText
+      android:id="@+id/nama"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:inputType="textPersonName"
+      android:hint="Nama Lengkap" />
+
+  <EditText
+      android:id="@+id/judul"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:inputType="text"
+      android:hint="Judul"/>
+
+  <EditText
+      android:id="@+id/waktu"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:inputType="date"
+      android:hint="Tanggal Tahun" />
+
+
+  <Button
+      android:id="@+id/btn_simpan"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="12dp"
+      android:text="Simpan" />
+
+</LinearLayout>

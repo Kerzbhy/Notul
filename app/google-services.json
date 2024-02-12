@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "191965242092",
+    "project_id": "notu-adi",
+    "storage_bucket": "notu-adi.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:191965242092:android:6fab69c25638ef7fc5fbc9",
+        "android_client_info": {
+          "package_name": "com.adi.notulen"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAtc_aZREp-ZlKWeddTj8RtMYkT-_eRVOU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
